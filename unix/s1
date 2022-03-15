@@ -1,0 +1,19 @@
+#!/bin/bash
+
+if [ $0 ]; then
+	PTH=$1
+else
+	PTH=`pwd`
+fi
+
+if [ $# -gt 1 ]; then
+	for ((i=2; i<=$#; i++)); do
+		echo "Parametr nadliczbowy: ${!i}"
+	done
+fi
+
+echo "Plików: `ls -Al $PTH | grep -c "^-"`"
+echo "Katalogów: `ls -Al $PTH | grep -c "^d"`"
+echo "Symlinków: `ls -Al $PTH | grep -c "^l"`"
+
+exit 0
