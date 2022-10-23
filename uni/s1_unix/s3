@@ -1,0 +1,25 @@
+#!/bin/bash
+
+if [ $# -lt 1 ]; then
+	DIRR=`pwd`
+else
+	DIRR=$1
+fi
+
+if [ ! -d $DIRR ]; then
+	echo "Katalog nie istnieje"
+	exit 1
+fi
+
+SUM=0
+
+for FILEE in `ls $DIRR | head -n+2`; do
+	FSLASH="/"
+	SIZEE=`ls -s "$DIRR$FSLASH$FILEE" | awk '{print $1}'`
+	if [ -r "$DIRR$FSLASH$FILEE" ]; then
+		SUM=`expr $SUM + $SIZEE`
+	fi
+done
+
+echo $SUM
+exit 0

@@ -1,14 +1,15 @@
-# MISC
-Repozytorium archiwalne zawierające różne rzeczy niegodne własnych, dedykowanych repozytoriów
+# miscellaneous
+Basically a code dump
 
-## Python
-Różnorakie drobne Pythonowe programy tworzone w najrozmaitszych celach
+## Obligatory warning
+Some of the code contained here is absolute and utter garbage. You have been warned.
 
-## UNIX
-Bashowe skrypty stworzone na zajęcia Wprowadzenia do systemów UNIX (semestr zimowy 2021/2022)
+## BEHOLD!
+### uni
+Uni stuff
 
-## WDI
-Pythonowe programy stworzone na zajęcia Wstępu do Informatyki (semestr zimowy 2021/2022)
+### python
+Non-uni python stuff
 
-## Webdev
-Strony stworzone onegdaj w ramach kursu online
+### other
+Other stuff

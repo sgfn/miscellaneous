@@ -1,15 +1,14 @@
-# Python
-Różnorakie drobne Pythonowe programy tworzone w najrozmaitszych celach
+## algorithms
+Mainly trash
 
-## AOC2021
-Programy stworzone na contest Advent of Code 2021
+## aoc2021
+Advent of Code 2021 (unfinished, mainly trash)
 
-## Algorithms
-Implementacje wybranych (znanych i lubianych) algorytmów
+## fractals
+Quite cool actually, but code is garbage
 
-## Fractals
-Programy tworzące i wyświetlające wybrane fraktale
+## search_engine
+Quite cool as well, implementation of BOW on a small dataset. Not utter garbage!
 
-## Pozostałe
-- 10d_prime_in_e.py - Znajduje pierwszą 10-cyfrową liczbę pierwszą w rozwinięciu dziesiętnym liczby e
-- sudokusolver.py - Rozwiązuje sudoku metodą bruteforce (heurystyczna została zaimplementowana z błędami i aktualnie nie działa)
+## various
+Other stuff, pretty useless
